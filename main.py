@@ -39,7 +39,7 @@ st.subheader('This web service app scores the loan application and determines if
 age = st.number_input(label='Enter Age of applicant:', value=30)
 job = st.selectbox('Select Job Type of applicant:', ('With Business','Employed'))
 mo_income = st.number_input(label='Enter Monthly Income of applicant (no commas):', value=30000)
-status = st.selectbox('Select Job Type of applicant:', ('Single','Married'))
+status = st.selectbox('Select Marital Status of applicant:', ('Single','Married'))
 no_family = st.number_input(label='Enter Number of Family Members (including applicant):', value=4)
 
 
