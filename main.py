@@ -9,11 +9,9 @@ import streamlit as st
 import warnings
 warnings.filterwarnings('ignore')
 
-# import os
-# os.chdir('c://users/adria/Downloads')
 
 # Read the data
-df = pd.read_csv('data_tree.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/agbaysa/st1/main/data_tree.csv')
 
 # Features Enginerring
 df['job'].loc[df['job'] == 'With Business'] = 0
