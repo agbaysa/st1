@@ -46,11 +46,11 @@ no_family = st.number_input(label='Enter Number of Family Members (including app
 
 if st.button('Submit'):
 	
-	# Progress:
-	progress = st.progress(0)
-	for i in range(100):
-		time.sleep(0.1)
-		progress.progress(i+1)
+    # Progress:
+    progress = st.progress(0)
+    for i in range(100):
+	time.sleep(0.1)
+	progress.progress(i+1)
 	
 	
 	
