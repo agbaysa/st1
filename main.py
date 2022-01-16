@@ -50,8 +50,8 @@ if st.button('Submit'):
 
     # Progress:
     progress = st.progress(0)
-    for i in range(20):
-        time.sleep(0.01)
+    for i in range(100):
+        time.sleep(0.001)
         progress.progress(i+1)
 	
     
