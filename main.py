@@ -32,7 +32,7 @@ model.fit(X_train, y_train)
 
 # Streamlit
 st.title('Scoring Loan Applications Using Streamlit')
-#st.image('https://github.com/agbaysa/st1/blob/main/1vb_logo.jpg', use_column_width='always')
+#st.image('1vb_logo.jpg', use_column_width='always')
 st.subheader('This web service app scores the loan application and determines if it is good or bad. Please enter the details of the loan applicant below and click the SUBMIT button.')
 
 
